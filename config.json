@@ -75,6 +75,16 @@
         "inputDir": "./data"
       }
     },
+
+        {
+      "type": "maxmindMMDB",
+      "action": "add",
+      "args": {
+        "uri": "https://raw.githubusercontent.com/alecthw/mmdb_china_ip_list/release/lite/Country.mmdb"
+      }
+    },
+
+    
     {
       "type": "private",
       "action": "add"
